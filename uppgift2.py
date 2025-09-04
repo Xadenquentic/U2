@@ -1,5 +1,22 @@
+
+name1 = input("Vad är ditt förnamn")
+name2 = input("Vad är ditt efternamn")
+print("hej",    name1,  name2, "Välkommen till MatthewMatical BMI calculator!: ")
+
+
+x = float(input("Skriv ett nummer: "))
+y = float(input("Skriv ett nummer: "))
+
+print(x * y, "Här är ditt svar!") 
+
+
+
+
+
+
 age = float(input("What is your age?: "))
 age_in_weeks = age * 52
+
 
 print("din ålder är", age_in_weeks, "veckor gammal")
 
@@ -49,5 +66,5 @@ elif lbs1.lower() in ["nej", "no", "nah", "neh", "naj"]:
     else:
         print("du är OBESE asså colossal!: ")
 
-print("Här är din BMI (Kg):", round(bmi_kg, 2), "Tack för du använder våran service!")
+print("Här är din BMI (Kg):", name1, name2, round(bmi_kg, 2), "Tack för du använder våran service!")
 # matthewmatics :D
