@@ -1,4 +1,22 @@
 
+print( 1 + 1) # addition
+
+print(5 * 5) # multiplication
+
+print(10 / 2) # division
+
+print(5^2) # exponentiation
+
+print(10-5) # subtraction
+
+print(10//2) # floor division
+
+print(10%3) # modulus
+
+
+
+
+
 name1 = input("Vad är ditt förnamn")
 name2 = input("Vad är ditt efternamn")
 print("hej",    name1,  name2, "Välkommen till MatthewMatical BMI calculator!: ")
